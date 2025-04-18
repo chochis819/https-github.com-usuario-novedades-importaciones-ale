@@ -1,18 +1,41 @@
-<header>
-  <div class="logo">
-    <img src="logo.png" alt="Novedades Importaciones Ale" />
-  </div>
-  <nav>
-    <ul>
-      <li><a href="#home">Inicio</a></li>
-      <li><a href="#catalog">Catálogo</a></li>
-      <li><a href="#about">Sobre Nosotros</a></li>
-      <li><a href="#contact">Contacto</a></li>
-      <li><a href="#cart">Carrito</a></li>
-    </ul>
-  </nav>
-  <div class="search-bar">
-    <input type="text" placeholder="Buscar productos..." />
-  </div>
-</header>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Novedades Importaciones Ale</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Vinculas el archivo CSS -->
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="images/logo.png" alt="Novedades Importaciones Ale">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Inicio</a></li>
+        <li><a href="#catalog">Catálogo</a></li>
+        <li><a href="#about">Sobre Nosotros</a></li>
+        <li><a href="#contact">Contacto</a></li>
+        <li><a href="#cart">Carrito</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h1>Bienvenidos a Novedades Importaciones Ale</h1>
+    <div class="slider">
+      <img src="images/banner1.jpg" alt="Banner 1">
+      <img src="images/banner2.jpg" alt="Banner 2">
+      <img src="images/banner3.jpg" alt="Banner 3">
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Novedades Importaciones Ale. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="scripts.js"></script> <!-- Vinculas el archivo JS -->
+</body>
+</html>
 
